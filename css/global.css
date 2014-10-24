@@ -1,0 +1,277 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+
+/* ----------------------------- typography */
+h1.title {
+color: #B5111B;
+font: bold 14pt/1.4 "Lucida Grande", Lucida, Arial, Verdana, sans-serif;
+text-transform: uppercase;
+margin-top: 10px;
+line-height: 1.2em;
+word-spacing: normal;
+text-align: left;
+letter-spacing: 0;
+}
+
+h3 {
+	font-size: 1.4em;
+	color: #444;
+}
+
+body {
+font-size: 12px;
+}
+
+.region-sidebar-first a, .region-sidebar-first .content ul a, .region-sidebar-first .content p {
+	color: #444;
+	xbackground-color: #f1f1f1;
+	font-family: "Lucida Grande", Lucida, Arial, Verdana, sans-serif;
+	font-size: 0.8em;
+}
+
+p, .content ul {
+font-family: Georgia;
+background-color: #fff;
+color: #444;
+text-decoration: none;
+word-spacing: normal;
+text-align: left;
+letter-spacing: 0;
+line-height: 1.3em;
+font-size: 1.3em;
+}
+
+a:link, a:visited {
+	color: #999;
+}
+
+a.author-title-url {
+	text-decoration: none;
+}
+
+/* ----------------------------- formatting stuff */
+#page {
+	background-color: #CCC;
+	}
+
+#zone-user-wrapper {
+		background-color: #ccc;
+		}
+			#zone-user {
+				background-color: #4A4A4A;
+				}
+					#region-user-first {
+						background-color: #4A4A4A;
+						}
+					#region-user-second {
+						background-color: #4A4A4A;
+						color: #f1f1f1;
+						font-family: "Lucida Grande", Lucida, Arial, Verdana, sans-serif;
+						}
+	
+#zone-branding-wrapper {
+		background-color: #CCC;
+		}
+			#zone-branding {
+				background-color: #4A4A4A;
+				}
+				#region-branding {
+					background-color: #4A4A4A;
+					}
+	
+#zone-menu-wrapper {
+		background-color: #CCC;
+		}
+			#zone-menu {
+				background-color: #B5111A;
+				}
+			#region-menu {
+				background-color: #B5111A;
+				padding: 5px 0 5px 0;
+				}
+			#region-menu a {
+				text-decoration: none;
+				font-size: 1.25em; 
+				xfont-weight: bold;
+				color: white;
+				font-family: "Lucida Grande", Lucida, Arial, Verdana, sans-serif;
+				}
+			#region-menu a:hover {
+				color: #999;
+			}
+			
+	
+#zone-header-wrapper {
+		background-color: #CCC;
+		}
+		#zone-header {
+			background-color: #B5111A;
+			}
+			#region-header-first {
+				background-color: #B5111A;
+				}
+			#region-header-second {
+				background-color: #B5111A;
+				}
+	
+#zone-preface-wrapper {
+		background-color: #CCC;
+		}
+		#zone-preface {
+			background-color: #FFF;
+			}
+			#region-preface-first {
+				background-color: #FF66FF;
+				}
+			#region-preface-second {
+				background-color: #FF3399;
+				}
+	
+			#region-preface-third {
+				background-color: #FF5050;
+				}
+				
+#zone-content-wrapper {
+		background-color: #ccc;
+		}
+#zone-content {
+			background-color: #f1f1f1;
+			}
+			#breadcrumb {
+				background-color: #FFF;
+				margin-top: 10px;	
+				}
+			#messages {
+				background-color: #66FF66;
+				}
+			#region-content {
+				background-color: #FFF;
+				}
+			#region-sidebar-first {
+				background-color: #f1f1f1;
+				}
+			#region-sidebar-second {
+				background-color: #8D8884; /* adam */
+				}
+		
+#zone-postscript-wrapper {
+			background-color: #CCC;
+			}
+				#zone-postscript {
+					background-color: #FFF;
+					}
+						#region-postscript-first {
+						background-color: #FFF;
+						}
+						#region-postscript-second {
+						background-color: #FFF;
+						}
+						#region-postscript-third {
+						background-color: #FFF;
+						}
+						#region-postscript-fourth {
+						background-color: #FFF;
+						}
+						
+#zone-footer-wrapper {
+			background-color: #CCCCCC;
+			}
+				#zone-footer {
+					background-color: #BBBBBB;
+					}
+
+						#region-footer-first {
+							background-color: #BBB;
+						}
+						#region-footer-first p {
+							font-size: 1.1em;
+							margin-top: 5px;
+						}
+						#region-footer-first p, #region-footer-first a {
+								font-family: "Lucida Grande", Lucida, Arial, Verdana, sans-serif;
+								color: white;
+							background-color: #BBB;
+						}
+						#region-footer-second {
+							background-color: #bbb;
+							}
+
+/* ----------------------------- formatting stuff */
+
+.view-display-id-block_1 img {
+	float: left;
+	margin: 5px 12px 0 0;
+	padding: 2px;
+	border: 1px solid #ccc;
+}
+
+.view-display-id-block_1 p {
+	background-color: #F1F1F1;
+	color: #444;
+	line-height: 1.6em;
+}
+
+.view-display-id-block_1 a {
+	color: #444;
+}
+
+.view-display-id-block_1 .more-link a {
+	color: #2677C6;
+}
+
+
+/* ------------------------------ ubercart shopping cart */
+.xcart-block-title-bar, h2.block-title {
+text-transform: uppercase;
+font-family: "Lucida Grande", Lucida, Arial, Verdana, sans-serif;
+font-size: 1.2em;
+margin-bottom: 5px;
+color: #A60111;
+text-decoration: none;
+}
+
+.region-sidebar-first .block {
+	margin: 10px 0 20px 0;
+	padding-bottom: 20px;
+	border-bottom: 1px;
+	border-color: #ccc;
+	border-style: solid;
+}
+
+#block-search-form {
+	border: 0px;
+}
+
+.region-content-inner {
+	padding: 5px 10px 40px 15px;
+}
+
+.region-sidebar-first-inner {
+padding-top: 10px;
+}
+
+.product-sku, .product-price {
+	color: #444;
+}
+
+.product-price {
+	margin-bottom: 10px;
+}
+
+.add-to-cart {
+}
+
+/* ------------------------------ authors page */
+.books-by-author-label, .views-field-field-homepage {
+	margin: 0 0 2px 0;
+	padding: 0;
+	text-transform:uppercase;
+	font-weight: bold;
+	font-family: "Lucida Grande", Lucida, Arial, Verdana, sans-serif;
+	font-size: 1.1em;
+}
+
+.view-authors .views-row {
+	margin-bottom: 40px;
+}
